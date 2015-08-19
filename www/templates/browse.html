@@ -1,0 +1,25 @@
+<!--
+<ion-view view-title="Browse">
+  <ion-content>
+    <h1>Browse</h1>
+  </ion-content>
+</ion-view>
+-->
+<ion-view view-title="Browse">
+  <ion-tabs class="tabs-positive tabs-icon-only">
+
+    <ion-tab title="Home" icon-on="ion-ios-filing" icon-off="ion-ios-filing-outline" ui-sref="app.browse.home">
+      <ion-nav-view name="tabHomeContent"></ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="About" icon-on="ion-ios-clock" icon-off="ion-ios-clock-outline" ui-sref="app.browse.about">
+      <ion-nav-view name="tabAboutContent"></ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="Settings" icon-on="ion-ios-gear" icon-off="ion-ios-gear-outline" ui-sref="app.browse.settings">
+      <ion-nav-view name="tabSettingsContent"></ion-nav-view>
+    </ion-tab>
+
+  </ion-tabs>
+</ion-view>
+
